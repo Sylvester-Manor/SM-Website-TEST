@@ -3,5 +3,7 @@ navigation:
     label: Items
   - href: /blog
     label: Blog
+  - href: /reference
+    label: Reference
   - href: /about
     label: About
