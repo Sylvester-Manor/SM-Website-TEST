@@ -1,8 +1,8 @@
 navigation:
   - href: /search
-    label: Items
-  - href: /blog
-    label: Blog
+    label: Collection Items
+  - href: /essays
+    label: Essays
   - href: /reference
     label: Reference
   - href: /about
