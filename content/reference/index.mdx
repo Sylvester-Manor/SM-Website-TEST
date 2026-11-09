@@ -12,3 +12,38 @@ Reference landing page
   alt="Test Image - Blog Landing Page"
   caption="Test Image - Blog Landing Page"
 />
+
+<Timeline
+  title="Sylvester Manor Site History"
+  description="Famine, mapping, policy, and revolt across one and a half centuries."
+  range={{start: "1750", end: "1900", granularity: "year"}}
+  threshold={5}
+  steps={50}
+  height="600px"
+>
+  <TimelinePoint
+    date="pre-1651"
+    title="Manhansett Lands and Waters"
+    summary="The Manhansett People have inhabited Manhansack-Ahaquatuwanock, or island sheltered by islands, for thousands of years. The
+Manhansett resided on Shelter Island from ca. 3500-2500 BCE until European contact in the 17th century and beyond. The relationship between this place and the Manhansett, and the Algonquian Peoples of Long Island and southeastern New England, did not end in 1651."
+  />
+  <TimelinePoint
+    date="1651"
+    title="Four Transatlantic Merchants Purchase Shelter Island"
+    summary="Four transatlantic merchants (Thomas Middleton, Thomas Rouse, and brothers Nathaniel and Constant Sylvester) purchase Shelter Island from Stephen Goodyear, former deputy director of New Haven Colony. The partners jointly operated sugar cane plantations in Barbados, frequenting West African ports to purchase enslaved persons, and Amsterdam and England to sell rum, molasses, and sugar. Shelter Island would serve as a strategic base for the North American branch of their business. Nathaniel Sylvester moved to the island to develop the site as a provisioning plantation for the global operation."
+  />
+  <TimelinePoint
+    date="1657"
+    title="Great Mutiny"
+    summary="Indian regiments rebelled across the north."
+    highlight
+    referencedManifests={[
+      "https://api.dc.library.northwestern.edu/api/v2/works/c5a11577-a1f2-4288-95de-96ad616174ed?as=iiif",
+    ]}
+  />
+  <TimelinePoint
+    date="1685"
+    title="Indian National Congress founded"
+    summary="A national movement for reform gained structure."
+  />
+</Timeline>
